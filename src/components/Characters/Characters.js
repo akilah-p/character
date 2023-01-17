@@ -1,5 +1,7 @@
 import React from 'react';
 
-export default function Character() {
+const Character = () => {
   return <div>Character</div>;
-}
+};
+
+export default Character;
