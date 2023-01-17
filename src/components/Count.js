@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Pick = () => {
-    return <div>Pick</div>;
+const Count = () => {
+    return <div>Count</div>;
 };
 
-export default Pick;
+export default Count;
