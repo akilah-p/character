@@ -1,7 +1,15 @@
 import React from 'react';
 
-const Select = () => {
-  return <div>Select</div>;
-};
+import Pick from '../components/Pick.js';
 
-export default Select;
+export default function Controls({
+  head, handleChange
+}) {
+  return (
+    <div className="controls">
+      <Pick 
+        label="Head" options = {['stoic', 'yelling', 'vampire']} value={head} onChange={(e) =>
+          handleChange ('head', e.target.value)} />
+    </div>
+  );
+}
